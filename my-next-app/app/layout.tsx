@@ -10,10 +10,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-export const metadata = {
-  title: "My Next.js App",
-  description: "A simple Next.js app with header and footer",
-};
+
 
 export default function RootLayout({
   children,

@@ -1,9 +1,9 @@
 import AdminLayout from "@/components/layouts/admin/AdminLayout";
 
-const AdminDashboard = () => (
+const Dashboard = () => (
     <div>
       <h1>Admin Dashboard</h1>
     </div>
 );
 
-export default AdminDashboard;
+export default Dashboard;
