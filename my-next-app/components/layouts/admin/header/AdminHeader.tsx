@@ -11,6 +11,9 @@ function AdminHeader() {
       <li>
         <Link href="/admin/blogs">Blogs</Link>
       </li>
+      <li>
+        <Link href="/admin/contacts">Contacts</Link>
+      </li>
     </ul>
   </nav></div>
   )

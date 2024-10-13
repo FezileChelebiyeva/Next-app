@@ -1,4 +1,4 @@
-import AdminBlog from "@/components/pages/admin/blogs/blogs";
+import AdminBlog from "@/components/pages/admin/blogs/Blogs";
 
 const Blogs = () => <AdminBlog />;
 
