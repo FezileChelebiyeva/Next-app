@@ -9,7 +9,7 @@ function AdminHeader() {
         <Link href="/admin">Admin</Link>
       </li>
       <li>
-        <Link href="admin/blogs">Blogs</Link>
+        <Link href="/admin/blogs">Blogs</Link>
       </li>
     </ul>
   </nav></div>

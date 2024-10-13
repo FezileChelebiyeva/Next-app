@@ -5,10 +5,10 @@ export const metadata = {
   description: "A simple Next.js app with header and footer",
 };
 
-export default function SiteLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return <PublicLayout>{children}</PublicLayout>;
-}
+};
+
+export default Layout;
+
+
