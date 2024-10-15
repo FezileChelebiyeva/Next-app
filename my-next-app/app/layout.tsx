@@ -1,20 +1,11 @@
-import localFont from "next/font/local";
+import "@/assets/styles/globals.scss";
+import type { Metadata } from "next";
 
-const geistSans = localFont({
-  src: "../assets/fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "../assets/fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
-export const metadata = {
-  title: "Admin",
-  description: "A simple Next.js app with header and footer",
+export const metadata: Metadata = {
+  title: "Home",
+  description: "-",
 };
+
 
 export default function RootLayout({
   children,
@@ -23,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
           <main>{children}</main>
       </body>
     </html>

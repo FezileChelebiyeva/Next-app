@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 60px;
+  @media screen and (max-width: 1024px) {
+    padding: 0 40px;
+  }
+  @media screen and (max-width: 996px) {
+    padding: 0 30px;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0 20px;
+  }
+}

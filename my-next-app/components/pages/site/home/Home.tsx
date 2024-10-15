@@ -1,6 +1,5 @@
 import Footer from "@/components/layouts/site/footer/Footer";
 import Header from "@/components/layouts/site/header/Header"
-
 export default function Home() {
   return (
       <div>
